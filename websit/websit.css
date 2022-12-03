@@ -1,0 +1,286 @@
+@import url('https://.goolepaples.com/css?family=open+sans');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.body{
+    font-family: 'open sans',sans-serif;
+    color: #222;
+    padding-bottom: 50px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0;
+
+}
+.nav{
+    position: fixed;
+    background-color: #222;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 15px;
+}
+.nav a:hover {
+    color: #c0392b;
+}
+
+.hero{
+    background-image: url(myhc_89683.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+
+}
+.hero::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 17, 128, 0.5);
+    z-index: -1;
+}
+.hero h1{
+    font-size: 40px;
+    margin: -20px 0 20px;
+}
+.hero p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.button{
+    background-color: rgb(3, 176, 245);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 7px 25px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px rgb(49, 29, 160), 0px 0px 8px #858585;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+    border:  rgb(3, 176, 245);
+}
+.button:active{
+    border: white;
+    background-color:#3b9494;
+}
+.cv{
+    text-decoration: none;
+    color: wheat;
+    background-color: #11c0a9;
+    padding: 7px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px rgb(7, 175, 197), 0px 0px 8px #858585;
+    transition: 0.5s;
+}
+.cv:hover{
+    background-color: transparent;
+    outline: none;
+    border: #03c5f5 2px solid;
+}
+.cv:active{
+    background-color:#29b0ff;
+    transform: scale(1.1);
+    border: rgb(121, 56, 56);
+}a
+.content h2,
+.content h3{
+    font-size: 150px;
+    margin: 20px 0;
+}
+.content p{
+    color: rgb(39, 133, 136);
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+.card{
+    height: 365px;
+    width: 345px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.car i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(33, 15, 194);
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+.pra p{
+    color: rgb(40, 152, 177);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: rgb(35, 177, 187) ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two{
+    background-color: #5c1111;
+    color: wheat;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px rgb(46, 171, 175), 0px 0px 8px #858585;  
+    transition: 0.5s;
+}
+.contact-me .button-two :hover{
+    background-color:transparent ;
+    border: 2px solid violet ;
+    cursor: pointer;
+}
+/*---- ---footer---------*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart-o{
+    color: #f44336;
+}
+.facebook-logo{
+    width: 40px;
+}
+.insta-logo{
+    width: 40px;
+}
+
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: rgb(252, 248, 248) ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two{
+    background-color: #111010;
+    color: wheat;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px rgb(250, 248, 248), 0px 0px 8px #858585;  
+    transition: 0.5s;
+}
+.contact-me .button-two :hover{
+    background-color:transparent ;
+    border: 2px solid violet ;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+     background: rgb(241, 235, 235);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: rgb(206, 194, 194);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: rgb(8, 8, 8);
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+} 
+.end{
+    color: rgb(8, 8, 8);
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
